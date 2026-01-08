@@ -1,0 +1,774 @@
+2026-01-07 17:30:54 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3000
+2026-01-07 17:30:54 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:30:54 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:30:55 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 17:32:53 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3000
+2026-01-07 17:32:53 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:32:53 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:32:54 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 17:35:58 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3000
+2026-01-07 17:35:58 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:35:58 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:36:28 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 17:36:48 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3000
+2026-01-07 17:36:48 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:36:48 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:37:18 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 17:44:48 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3000
+2026-01-07 17:44:48 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:44:48 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:45:18 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 17:45:55 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 17:45:55 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:45:55 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:46:01 [32minfo[39m: ::1 - - [07/Jan/2026:22:46:01 +0000] "GET /api/cats/breeds HTTP/1.1" 200 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 17:46:25 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 17:49:07 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 17:49:07 [32minfo[39m: 📁 Entorno: development
+2026-01-07 17:49:07 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 17:49:15 [32minfo[39m: ::1 - - [07/Jan/2026:22:49:15 +0000] "GET /api/cats/breeds HTTP/1.1" 200 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 17:49:27 [32minfo[39m: ::1 - - [07/Jan/2026:22:49:27 +0000] "GET /api/cats/breeds/abys HTTP/1.1" 200 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 17:49:37 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:21:15 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:21:15 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:21:15 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:21:19 [32minfo[39m: ::1 - - [07/Jan/2026:23:21:19 +0000] "GET /api/cats/breeds/abys HTTP/1.1" 200 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:21:46 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:26:53 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:26:53 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:26:53 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:27:21 [32minfo[39m: ::1 - - [07/Jan/2026:23:27:21 +0000] "GET /api/images?breed_id=beng&limit=5 HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:27:23 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:27:44 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:27:44 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:27:44 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:27:46 [32minfo[39m: ::1 - - [07/Jan/2026:23:27:46 +0000] "GET /api/images?breed_id=abys&limit=5 HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:27:49 [32minfo[39m: ::1 - - [07/Jan/2026:23:27:49 +0000] "GET /api/images?breed_id=abys&limit=5 HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:28:14 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:28:22 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:28:22 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:28:22 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:28:25 [32minfo[39m: ::1 - - [07/Jan/2026:23:28:25 +0000] "POST /api/users/register HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:28:30 [32minfo[39m: ::1 - - [07/Jan/2026:23:28:30 +0000] "POST /api/users/register HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:28:52 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:29:52 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:29:52 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:29:52 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:29:53 [32minfo[39m: ::1 - - [07/Jan/2026:23:29:53 +0000] "POST /api/users/register HTTP/1.1" 404 - "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:30:09 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:30:09 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:30:09 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:30:16 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:30:16 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:30:16 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:30:23 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:30:23 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:30:23 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:30:36 [31merror[39m: Error en register: undefined
+2026-01-07 18:30:36 [32minfo[39m: ::1 - - [07/Jan/2026:23:30:36 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:30:53 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:31:40 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:31:40 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:31:40 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:31:42 [31merror[39m: Error en register: undefined
+2026-01-07 18:31:42 [32minfo[39m: ::1 - - [07/Jan/2026:23:31:42 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:31:58 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:31:58 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:31:58 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:32:01 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:32:01 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:32:01 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:32:03 [31merror[39m: Error en register: undefined
+2026-01-07 18:32:03 [32minfo[39m: ::1 - - [07/Jan/2026:23:32:03 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:32:20 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:32:20 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:32:20 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:32:26 [31merror[39m: Error en register: undefined
+2026-01-07 18:32:26 [32minfo[39m: ::1 - - [07/Jan/2026:23:32:26 +0000] "POST /api/users/register HTTP/1.1" 400 643 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:32:49 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:32:49 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:32:49 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:32:50 [31merror[39m: Error en register: undefined
+2026-01-07 18:32:50 [32minfo[39m: ::1 - - [07/Jan/2026:23:32:50 +0000] "POST /api/users/register HTTP/1.1" 400 575 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:33:01 [31merror[39m: Error en register: undefined
+2026-01-07 18:33:01 [32minfo[39m: ::1 - - [07/Jan/2026:23:33:01 +0000] "POST /api/users/register HTTP/1.1" 400 575 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:33:06 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:33:06 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:33:06 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:33:06 [31merror[39m: Error en register: undefined
+2026-01-07 18:33:06 [32minfo[39m: ::1 - - [07/Jan/2026:23:33:06 +0000] "POST /api/users/register HTTP/1.1" 400 470 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:33:34 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:33:34 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:33:34 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:33:40 [31merror[39m: Error en register: undefined
+2026-01-07 18:33:40 [32minfo[39m: ::1 - - [07/Jan/2026:23:33:40 +0000] "POST /api/users/register HTTP/1.1" 400 337 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:34:04 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:35:41 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:35:41 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:35:41 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:35:53 [31merror[39m: Error en register: undefined
+2026-01-07 18:35:53 [32minfo[39m: ::1 - - [07/Jan/2026:23:35:53 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:36:11 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:38:10 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:38:10 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:38:10 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:38:40 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:38:43 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:38:43 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:38:43 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:38:52 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:38:52 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:38:52 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:39:10 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:39:10 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:39:10 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:39:15 [31merror[39m: Error en register: undefined
+2026-01-07 18:39:15 [32minfo[39m: ::1 - - [07/Jan/2026:23:39:15 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:39:40 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:43:04 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:43:04 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:43:04 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:43:22 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:43:22 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:43:22 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:43:38 [31merror[39m: Error en registro: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:43:38 [31merror[39m: Error en register: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:43:38 [32minfo[39m: ::1 - - [07/Jan/2026:23:43:38 +0000] "POST /api/users/register HTTP/1.1" 400 130 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:43:52 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:44:29 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:44:29 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:44:29 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:44:59 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:47:08 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:47:08 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:47:08 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:47:21 [31merror[39m: Error en registro: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:47:21 [31merror[39m: Error en register: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:47:21 [32minfo[39m: ::1 - - [07/Jan/2026:23:47:21 +0000] "POST /api/users/register HTTP/1.1" 400 130 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:47:38 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:52:08 [32minfo[39m: Intentando conectar a MongoDB: mongodb://localhost:27017/catdb
+2026-01-07 18:52:08 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:52:08 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:52:08 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:52:13 [31merror[39m: ❌ Error crítico conectando a MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-01-07 18:52:44 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:52:44 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:52:44 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:52:58 [31merror[39m: Error en registro: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:52:58 [31merror[39m: Error en register: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:52:59 [32minfo[39m: ::1 - - [07/Jan/2026:23:52:59 +0000] "POST /api/users/register HTTP/1.1" 400 130 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:53:14 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 18:54:16 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:54:16 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:54:16 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:54:31 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 18:54:31 [32minfo[39m: 📁 Entorno: development
+2026-01-07 18:54:31 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 18:54:44 [31merror[39m: Error en registro: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:54:44 [31merror[39m: Error en register: Operation `users.findOne()` buffering timed out after 10000ms
+2026-01-07 18:54:44 [32minfo[39m: ::1 - - [07/Jan/2026:23:54:44 +0000] "POST /api/users/register HTTP/1.1" 400 130 "-" "PostmanRuntime/7.51.0"
+2026-01-07 18:55:01 [31merror[39m: Error conectando a MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-01-07 19:03:54 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:03:54 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:03:54 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:03:56 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:04:15 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:04:15 [31merror[39m: Error en register: next is not a function
+2026-01-07 19:04:15 [32minfo[39m: ::1 - - [08/Jan/2026:00:04:15 +0000] "POST /api/users/register HTTP/1.1" 400 91 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:05:38 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:05:38 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:05:38 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:05:39 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:05:48 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:05:48 [31merror[39m: Error en register: next is not a function
+2026-01-07 19:05:48 [32minfo[39m: ::1 - - [08/Jan/2026:00:05:48 +0000] "POST /api/users/register HTTP/1.1" 400 91 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:07:50 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:07:50 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:07:50 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:07:52 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:12:10 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:12:10 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:12:10 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:12:13 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:12:13 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:12:13 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:12:13 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:30:07 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:30:07 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:30:07 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:30:07 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:30:12 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:30:12 [31merror[39m: Error en register: next is not a function
+2026-01-07 19:30:12 [32minfo[39m: ::1 - - [08/Jan/2026:00:30:12 +0000] "POST /api/users/register HTTP/1.1" 400 91 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:31:53 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:31:53 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:31:53 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:31:53 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:32:22 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:32:22 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:32:22 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:32:23 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:32:26 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:32:26 [31merror[39m: Error en register: next is not a function
+2026-01-07 19:32:26 [32minfo[39m: ::1 - - [08/Jan/2026:00:32:26 +0000] "POST /api/users/register HTTP/1.1" 400 91 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:32:47 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:32:47 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:32:47 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:32:48 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:34:28 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:34:28 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:34:28 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:34:29 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:34:51 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:34:51 [31merror[39m: Error en register: next is not a function
+2026-01-07 19:34:51 [32minfo[39m: ::1 - - [08/Jan/2026:00:34:51 +0000] "POST /api/users/register HTTP/1.1" 400 91 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:37:26 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:37:26 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:37:26 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:37:27 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:37:43 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:37:43 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:37:43 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:37:44 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:37:59 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:37:59 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:37:59 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:37:59 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:38:09 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:38:09 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:38:09 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:38:10 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:39:21 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:39:21 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:39:21 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:39:22 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:42:09 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:42:09 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:42:09 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:42:12 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:42:12 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:42:12 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:42:13 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:42:27 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:42:27 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:42:27 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:42:28 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:42:30 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:42:30 [31merror[39m: Error en registro: next is not a function
+2026-01-07 19:42:30 [32minfo[39m: ::1 - - [08/Jan/2026:00:42:30 +0000] "POST /api/users/register HTTP/1.1" 400 52 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:44:07 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:07 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:07 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:44:09 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:44:12 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:12 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:12 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:44:13 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:44:23 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:23 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:23 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:44:24 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:44:42 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:42 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:42 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:44:43 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:44:47 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:47 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:47 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:44:48 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:44:59 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:44:59 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:44:59 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:45:00 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:45:02 [31merror[39m: Error en register: undefined
+2026-01-07 19:45:02 [32minfo[39m: ::1 - - [08/Jan/2026:00:45:02 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:45:54 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:45:54 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:45:54 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:45:55 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:46:05 [31merror[39m: Error en register: undefined
+2026-01-07 19:46:05 [32minfo[39m: ::1 - - [08/Jan/2026:00:46:05 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:46:24 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:46:24 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:46:24 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:46:25 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:46:25 [31merror[39m: Error en register: undefined
+2026-01-07 19:46:25 [32minfo[39m: ::1 - - [08/Jan/2026:00:46:25 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:46:31 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:46:31 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:46:31 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:46:32 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:46:33 [31merror[39m: Error en register: undefined
+2026-01-07 19:46:33 [32minfo[39m: ::1 - - [08/Jan/2026:00:46:33 +0000] "POST /api/users/register HTTP/1.1" 400 709 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:46:56 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:46:56 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:46:56 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:46:56 [31merror[39m: Error en register: undefined
+2026-01-07 19:46:56 [32minfo[39m: ::1 - - [08/Jan/2026:00:46:56 +0000] "POST /api/users/register HTTP/1.1" 400 213 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:46:57 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 19:46:58 [31merror[39m: Error en register: undefined
+2026-01-07 19:46:58 [32minfo[39m: ::1 - - [08/Jan/2026:00:46:58 +0000] "POST /api/users/register HTTP/1.1" 400 213 "-" "PostmanRuntime/7.51.0"
+2026-01-07 19:47:20 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-07 19:47:20 [32minfo[39m: 📁 Entorno: development
+2026-01-07 19:47:20 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-07 19:47:21 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-07 20:21:49 [32minfo[39m: ::1 - - [08/Jan/2026:01:21:49 +0000] "GET /api/cats/breeds HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
+2026-01-07 20:21:49 [32minfo[39m: ::1 - - [08/Jan/2026:01:21:49 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0"
+2026-01-07 20:22:49 [32minfo[39m: ::1 - - [08/Jan/2026:01:22:49 +0000] "GET /api/cats/breeds HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-07 20:22:50 [32minfo[39m: ::1 - - [08/Jan/2026:01:22:50 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-07 20:27:21 [32minfo[39m: ::1 - - [08/Jan/2026:01:27:21 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-07 20:27:22 [32minfo[39m: ::1 - - [08/Jan/2026:01:27:22 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-07 20:42:17 [32minfo[39m: ::1 - - [08/Jan/2026:01:42:17 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-07 20:42:18 [32minfo[39m: ::1 - - [08/Jan/2026:01:42:18 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:34:24 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 11:34:24 [32minfo[39m: 📁 Entorno: development
+2026-01-08 11:34:24 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 11:34:26 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 11:34:43 [32minfo[39m: ::1 - - [08/Jan/2026:16:34:43 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:34:44 [32minfo[39m: ::1 - - [08/Jan/2026:16:34:44 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:35:51 [32minfo[39m: ::1 - - [08/Jan/2026:16:35:51 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:35:52 [32minfo[39m: ::1 - - [08/Jan/2026:16:35:52 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:36:33 [32minfo[39m: ::1 - - [08/Jan/2026:16:36:33 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 11:38:01 [32minfo[39m: ::1 - - [08/Jan/2026:16:38:01 +0000] "GET /api/users/register?username=juan&email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 404 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:07:48 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:07:48 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:07:48 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:07:49 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:08:31 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:08:31 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:08:31 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:08:32 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:10:17 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:10:17 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:10:17 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:10:18 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:10:38 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:10:38 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:10:38 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:10:39 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:10:48 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:10:48 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:10:48 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:10:49 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:10:56 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:10:56 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:10:56 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:10:57 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:11:10 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:11:10 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:11:10 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:11:11 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:11:23 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:11:23 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:11:23 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:11:24 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:11:38 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:11:38 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:11:38 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:11:38 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:11:51 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:11:51 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:11:51 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:11:52 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:12:00 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:12:00 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:12:00 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:12:01 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:12:29 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:12:29 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:12:29 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:12:30 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:13:10 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:13:10 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:13:10 [32minfo[39m: ::1 - - [08/Jan/2026:17:13:10 +0000] "GET /api/users/register?username=juan&email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 400 91 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:14:54 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:14:54 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:14:54 [32minfo[39m: ::1 - - [08/Jan/2026:17:14:54 +0000] "GET /api/users/register?username=juan&email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 400 91 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:15:46 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:15:46 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:15:46 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:15:47 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:16:06 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:16:06 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:16:06 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:16:07 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:18:16 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:18:16 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:18:16 [32minfo[39m: ::1 - - [08/Jan/2026:17:18:16 +0000] "POST /api/users/register HTTP/1.1" 400 91 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:18:59 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:18:59 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:18:59 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:19:01 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:19:04 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:19:04 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:19:04 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:19:05 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:19:40 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:19:40 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:19:40 [32minfo[39m: ::1 - - [08/Jan/2026:17:19:40 +0000] "POST /api/users/register HTTP/1.1" 400 91 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:21:53 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:21:53 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:21:53 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:21:54 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:22:24 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:22:24 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:22:24 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:22:26 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:22:32 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:22:32 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:22:32 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:22:33 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:22:37 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:22:37 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:22:37 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:22:38 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:22:41 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:22:41 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:22:41 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:22:42 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:32:26 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:32:26 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:32:26 [32minfo[39m: ::1 - - [08/Jan/2026:17:32:26 +0000] "POST /api/users/register HTTP/1.1" 400 91 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:32:52 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:32:52 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:32:52 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:32:53 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:33:02 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:33:02 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:33:02 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:33:03 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:34:32 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:34:32 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:34:32 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:34:33 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:35:02 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:35:02 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:35:02 [31merror[39m: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\entities\User.ts:51:5)
+    at Kareem.execPre (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\kareem\index.js:65:24)
+    at model.$__save (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\mongoose\lib\model.js:369:5)
+    at model.save (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\mongoose\lib\model.js:609:5)
+    at AuthService.register (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\services\AuthService.ts:89:7)
+    at UserController.register (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\controllers\UserController.ts:51:22)
+2026-01-08 12:35:02 [32minfo[39m: ::1 - - [08/Jan/2026:17:35:02 +0000] "POST /api/users/register HTTP/1.1" 500 906 "-" "PostmanRuntime/7.51.0"
+2026-01-08 12:35:54 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:35:54 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:35:54 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:35:56 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:36:05 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:36:05 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:36:05 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:36:06 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:36:39 [31merror[39m: Error en registro: next is not a function
+2026-01-08 12:36:39 [31merror[39m: Error en register: next is not a function
+2026-01-08 12:36:39 [31merror[39m: TypeError: next is not a function
+    at model.<anonymous> (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\entities\User.ts:53:12)
+    at Kareem.execPre (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\kareem\index.js:65:24)
+    at model.$__save (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\mongoose\lib\model.js:369:5)
+    at model.save (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\node_modules\mongoose\lib\model.js:609:5)
+    at AuthService.register (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\services\AuthService.ts:89:7)
+    at UserController.register (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\controllers\UserController.ts:51:22)
+2026-01-08 12:36:39 [32minfo[39m: ::1 - - [08/Jan/2026:17:36:39 +0000] "POST /api/users/register HTTP/1.1" 500 907 "-" "PostmanRuntime/7.51.0"
+2026-01-08 12:38:32 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:38:32 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:38:32 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:38:33 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:38:41 [32minfo[39m: ::1 - - [08/Jan/2026:17:38:41 +0000] "POST /api/users/register HTTP/1.1" 200 548 "-" "PostmanRuntime/7.51.0"
+2026-01-08 12:43:07 [32minfo[39m: ::1 - - [08/Jan/2026:17:43:07 +0000] "GET /api/cats/breeds HTTP/1.1" - - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:43:08 [32minfo[39m: ::1 - - [08/Jan/2026:17:43:08 +0000] "GET /api/cats/breeds HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:43:08 [32minfo[39m: ::1 - - [08/Jan/2026:17:43:08 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:43:25 [32minfo[39m: ::1 - - [08/Jan/2026:17:43:25 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:43:26 [32minfo[39m: ::1 - - [08/Jan/2026:17:43:26 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:44:17 [32minfo[39m: ::1 - - [08/Jan/2026:17:44:17 +0000] "GET /api/users/login?email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 200 501 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:44:17 [32minfo[39m: ::1 - - [08/Jan/2026:17:44:17 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:44:18 [32minfo[39m: ::1 - - [08/Jan/2026:17:44:18 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:06 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:06 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:06 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:06 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:22 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:22 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:23 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:23 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:37 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:37 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:37 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:37 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:51 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:51 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:47:52 [32minfo[39m: ::1 - - [08/Jan/2026:17:47:52 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:48:21 [32minfo[39m: ::1 - - [08/Jan/2026:17:48:21 +0000] "GET /api/users/login?email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 200 501 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:48:22 [32minfo[39m: ::1 - - [08/Jan/2026:17:48:22 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:48:23 [32minfo[39m: ::1 - - [08/Jan/2026:17:48:23 +0000] "GET /api/cats/breeds HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:56:00 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 12:56:00 [32minfo[39m: 📁 Entorno: development
+2026-01-08 12:56:00 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 12:56:01 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 12:56:09 [32minfo[39m: ::1 - - [08/Jan/2026:17:56:09 +0000] "GET /api/cats/breeds?t=1767894968437 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:56:09 [32minfo[39m: ::1 - - [08/Jan/2026:17:56:09 +0000] "GET /api/cats/breeds?t=1767894968445 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:58:34 [32minfo[39m: ::1 - - [08/Jan/2026:17:58:34 +0000] "GET /api/cats/breeds?t=1767895114018 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 12:58:34 [32minfo[39m: ::1 - - [08/Jan/2026:17:58:34 +0000] "GET /api/cats/breeds?t=1767895114027 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:00:21 [32minfo[39m: ::1 - - [08/Jan/2026:18:00:21 +0000] "GET /api/cats/breeds?t=1767895221308 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:00:21 [32minfo[39m: ::1 - - [08/Jan/2026:18:00:21 +0000] "GET /api/cats/breeds?t=1767895221301 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:00:22 [32minfo[39m: ::1 - - [08/Jan/2026:18:00:22 +0000] "GET /api/cats/breeds/abys?t=1767895222020 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:00:23 [32minfo[39m: ::1 - - [08/Jan/2026:18:00:23 +0000] "GET /api/images/imagesbybreedid?t=1767895222023&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:01:03 [32minfo[39m: ::1 - - [08/Jan/2026:18:01:03 +0000] "GET /api/cats/breeds?t=1767895262960 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:01:03 [32minfo[39m: ::1 - - [08/Jan/2026:18:01:03 +0000] "GET /api/cats/breeds?t=1767895262964 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:01:03 [32minfo[39m: ::1 - - [08/Jan/2026:18:01:03 +0000] "GET /api/images/imagesbybreedid?t=1767895263554&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:01:04 [32minfo[39m: ::1 - - [08/Jan/2026:18:01:04 +0000] "GET /api/cats/breeds/abys?t=1767895263552 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:03:39 [32minfo[39m: ::1 - - [08/Jan/2026:18:03:39 +0000] "GET /api/cats/breeds?t=1767895418632 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:03:39 [32minfo[39m: ::1 - - [08/Jan/2026:18:03:39 +0000] "GET /api/cats/breeds?t=1767895418645 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:03:39 [32minfo[39m: ::1 - - [08/Jan/2026:18:03:39 +0000] "GET /api/cats/breeds/abys?t=1767895419513 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:03:40 [32minfo[39m: ::1 - - [08/Jan/2026:18:03:40 +0000] "GET /api/images/imagesbybreedid?t=1767895419515&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:22 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:22 +0000] "GET /api/cats/breeds?t=1767895461733 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:22 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:22 +0000] "GET /api/cats/breeds?t=1767895461742 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:22 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:22 +0000] "GET /api/images/imagesbybreedid?t=1767895462397&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:22 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:22 +0000] "GET /api/cats/breeds/abys?t=1767895462393 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:51 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:51 +0000] "GET /api/cats/breeds?t=1767895491433 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:52 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:52 +0000] "GET /api/cats/breeds?t=1767895491465 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:52 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:52 +0000] "GET /api/cats/breeds/abys?t=1767895492072 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:04:52 [32minfo[39m: ::1 - - [08/Jan/2026:18:04:52 +0000] "GET /api/images/imagesbybreedid?t=1767895492075&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:06 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:06 +0000] "GET /api/cats/breeds?t=1767896285873 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:06 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:06 +0000] "GET /api/cats/breeds?t=1767896285868 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:07 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:07 +0000] "GET /api/cats/breeds/abys?t=1767896286783 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:07 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:07 +0000] "GET /api/images/imagesbybreedid?t=1767896286785&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:16 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:16 +0000] "GET /api/cats/breeds?t=1767896295598 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:16 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:16 +0000] "GET /api/cats/breeds?t=1767896295603 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:16 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:16 +0000] "GET /api/cats/breeds/abys?t=1767896296317 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:16 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:16 +0000] "GET /api/images/imagesbybreedid?t=1767896296320&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:32 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:32 +0000] "GET /api/cats/breeds?t=1767896312185 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:32 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:32 +0000] "GET /api/cats/breeds?t=1767896312189 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:33 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:33 +0000] "GET /api/cats/breeds/abys?t=1767896312795 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:18:33 [32minfo[39m: ::1 - - [08/Jan/2026:18:18:33 +0000] "GET /api/images/imagesbybreedid?t=1767896312799&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:20:34 [32minfo[39m: ::1 - - [08/Jan/2026:18:20:34 +0000] "GET /api/cats/breeds?t=1767896434153 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:20:34 [32minfo[39m: ::1 - - [08/Jan/2026:18:20:34 +0000] "GET /api/cats/breeds?t=1767896434165 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:20:35 [32minfo[39m: ::1 - - [08/Jan/2026:18:20:35 +0000] "GET /api/cats/breeds/abys?t=1767896434970 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:20:35 [32minfo[39m: ::1 - - [08/Jan/2026:18:20:35 +0000] "GET /api/images/imagesbybreedid?t=1767896434972&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:14 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:14 +0000] "GET /api/cats/breeds?t=1767896833743 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:14 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:14 +0000] "GET /api/cats/breeds?t=1767896833749 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:14 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:14 +0000] "GET /api/cats/breeds/abys?t=1767896834452 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:14 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:14 +0000] "GET /api/images/imagesbybreedid?t=1767896834455&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:28 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:28 +0000] "GET /api/cats/breeds?t=1767896847974 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:28 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:28 +0000] "GET /api/cats/breeds?t=1767896847970 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:29 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:29 +0000] "GET /api/cats/breeds/abys?t=1767896848818 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:27:29 [32minfo[39m: ::1 - - [08/Jan/2026:18:27:29 +0000] "GET /api/images/imagesbybreedid?t=1767896848820&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:29:57 [32minfo[39m: ::1 - - [08/Jan/2026:18:29:57 +0000] "GET /api/cats/breeds?t=1767896996743 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:29:57 [32minfo[39m: ::1 - - [08/Jan/2026:18:29:57 +0000] "GET /api/cats/breeds?t=1767896996736 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:29:58 [32minfo[39m: ::1 - - [08/Jan/2026:18:29:58 +0000] "GET /api/images/imagesbybreedid?t=1767896997459&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:29:58 [32minfo[39m: ::1 - - [08/Jan/2026:18:29:58 +0000] "GET /api/cats/breeds/abys?t=1767896997457 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:30:10 [32minfo[39m: ::1 - - [08/Jan/2026:18:30:10 +0000] "GET /api/cats/breeds?t=1767897009878 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:30:10 [32minfo[39m: ::1 - - [08/Jan/2026:18:30:10 +0000] "GET /api/cats/breeds?t=1767897009860 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:30:10 [32minfo[39m: ::1 - - [08/Jan/2026:18:30:10 +0000] "GET /api/images/imagesbybreedid?t=1767897010488&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:30:10 [32minfo[39m: ::1 - - [08/Jan/2026:18:30:10 +0000] "GET /api/cats/breeds/abys?t=1767897010486 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:31:06 [32minfo[39m: ::1 - - [08/Jan/2026:18:31:06 +0000] "GET /api/cats/breeds/aege?t=1767897066428 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 13:31:07 [32minfo[39m: ::1 - - [08/Jan/2026:18:31:07 +0000] "GET /api/images/imagesbybreedid?t=1767897066431&breed_id=aege&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:09 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:09 +0000] "GET /api/cats/breeds?t=1767900488601 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:09 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:09 +0000] "GET /api/cats/breeds?t=1767900488607 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:10 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:10 +0000] "GET /api/cats/breeds/abys?t=1767900489647 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:10 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:10 +0000] "GET /api/images/imagesbybreedid?t=1767900489651&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:55 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:55 +0000] "GET /api/users/login?email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 200 501 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:55 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:55 +0000] "GET /api/cats/breeds?t=1767900535273 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:55 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:55 +0000] "GET /api/cats/breeds?t=1767900535276 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:56 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:56 +0000] "GET /api/cats/breeds/abys?t=1767900535884 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:28:56 [32minfo[39m: ::1 - - [08/Jan/2026:19:28:56 +0000] "GET /api/images/imagesbybreedid?t=1767900535885&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:30:46 [32minfo[39m: ::1 - - [08/Jan/2026:19:30:46 +0000] "GET /api/cats/breeds?t=1767900645342 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:31:37 [32minfo[39m: ::1 - - [08/Jan/2026:19:31:37 +0000] "GET /api/cats/breeds?t=1767900697028 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:31:37 [32minfo[39m: ::1 - - [08/Jan/2026:19:31:37 +0000] "GET /api/cats/breeds?t=1767900697034 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:31:38 [32minfo[39m: ::1 - - [08/Jan/2026:19:31:38 +0000] "GET /api/images/imagesbybreedid?t=1767900697762&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:31:38 [32minfo[39m: ::1 - - [08/Jan/2026:19:31:38 +0000] "GET /api/cats/breeds/abys?t=1767900697760 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:33:40 [32minfo[39m: ::1 - - [08/Jan/2026:19:33:40 +0000] "GET /api/cats/breeds?t=1767900819662 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:33:40 [32minfo[39m: ::1 - - [08/Jan/2026:19:33:40 +0000] "GET /api/cats/breeds?t=1767900819671 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:33:40 [32minfo[39m: ::1 - - [08/Jan/2026:19:33:40 +0000] "GET /api/images/imagesbybreedid?t=1767900820427&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:33:41 [32minfo[39m: ::1 - - [08/Jan/2026:19:33:41 +0000] "GET /api/cats/breeds/abys?t=1767900820423 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:34:34 [32minfo[39m: ::1 - - [08/Jan/2026:19:34:34 +0000] "GET /api/cats/breeds/abob?t=1767900874357 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:34:35 [32minfo[39m: ::1 - - [08/Jan/2026:19:34:35 +0000] "GET /api/images/imagesbybreedid?t=1767900874360&breed_id=abob&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:11 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:11 +0000] "GET /api/cats/breeds?t=1767900971503 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:12 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:12 +0000] "GET /api/cats/breeds?t=1767900971511 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:12 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:12 +0000] "GET /api/images/imagesbybreedid?t=1767900972014&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:12 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:12 +0000] "GET /api/cats/breeds/abys?t=1767900972008 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:53 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:53 +0000] "GET /api/cats/breeds?t=1767901013269 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:53 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:53 +0000] "GET /api/cats/breeds?t=1767901013277 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:54 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:54 +0000] "GET /api/cats/breeds/abys?t=1767901013831 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:36:54 [32minfo[39m: ::1 - - [08/Jan/2026:19:36:54 +0000] "GET /api/images/imagesbybreedid?t=1767901013835&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:10 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:10 +0000] "GET /api/cats/breeds?t=1767901030421 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:10 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:10 +0000] "GET /api/cats/breeds?t=1767901030414 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:11 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:11 +0000] "GET /api/images/imagesbybreedid?t=1767901030974&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:11 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:11 +0000] "GET /api/cats/breeds/abys?t=1767901030970 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:17 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:17 +0000] "GET /api/cats/breeds?t=1767901036491 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:17 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:17 +0000] "GET /api/cats/breeds?t=1767901036482 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:17 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:17 +0000] "GET /api/cats/breeds/abys?t=1767901037098 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:37:17 [32minfo[39m: ::1 - - [08/Jan/2026:19:37:17 +0000] "GET /api/images/imagesbybreedid?t=1767901037101&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:02 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:02 +0000] "GET /api/cats/breeds?t=1767901141550 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:02 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:02 +0000] "GET /api/cats/breeds?t=1767901141540 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:02 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:02 +0000] "GET /api/images/imagesbybreedid?t=1767901142449&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:02 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:02 +0000] "GET /api/cats/breeds/abys?t=1767901142446 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:15 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:15 +0000] "GET /api/cats/breeds?t=1767901154529 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:15 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:15 +0000] "GET /api/cats/breeds?t=1767901154522 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:16 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:16 +0000] "GET /api/cats/breeds/abys?t=1767901155907 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:16 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:16 +0000] "GET /api/images/imagesbybreedid?t=1767901155910&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:57 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:57 +0000] "GET /api/cats/breeds?t=1767901196683 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:57 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:57 +0000] "GET /api/cats/breeds?t=1767901196680 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:57 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:57 +0000] "GET /api/cats/breeds/abys?t=1767901197218 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:39:57 [32minfo[39m: ::1 - - [08/Jan/2026:19:39:57 +0000] "GET /api/images/imagesbybreedid?t=1767901197220&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:43:19 [32minfo[39m: ::1 - - [08/Jan/2026:19:43:19 +0000] "GET /api/cats/breeds?t=1767901396393 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:43:20 [32minfo[39m: ::1 - - [08/Jan/2026:19:43:20 +0000] "GET /api/cats/breeds?t=1767901396400 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:43:20 [32minfo[39m: ::1 - - [08/Jan/2026:19:43:20 +0000] "GET /api/cats/breeds/abys?t=1767901399771 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:43:20 [32minfo[39m: ::1 - - [08/Jan/2026:19:43:20 +0000] "GET /api/images/imagesbybreedid?t=1767901399774&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:25 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 14:44:25 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 14:44:25 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:25 +0000] "GET /api/users/login?email=juancamiloa@finaktiva.com&password=Finaktiva2022* HTTP/1.1" 401 92 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:52 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:52 +0000] "GET /api/users/login?email=juancamiloa@test.com&password=Aa123456789 HTTP/1.1" 200 501 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:52 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:52 +0000] "GET /api/cats/breeds?t=1767901492292 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:52 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:52 +0000] "GET /api/cats/breeds?t=1767901492289 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:53 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:53 +0000] "GET /api/images/imagesbybreedid?t=1767901492966&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 14:44:53 [32minfo[39m: ::1 - - [08/Jan/2026:19:44:53 +0000] "GET /api/cats/breeds/abys?t=1767901492964 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:07:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:07:18 +0000] "GET /api/cats/breeds?t=1767902838164 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:07:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:07:18 +0000] "GET /api/cats/breeds?t=1767902838157 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:07:19 [32minfo[39m: ::1 - - [08/Jan/2026:20:07:19 +0000] "GET /api/images/imagesbybreedid?t=1767902838815&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:07:19 [32minfo[39m: ::1 - - [08/Jan/2026:20:07:19 +0000] "GET /api/cats/breeds/abys?t=1767902838812 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:14:15 [32minfo[39m: ::1 - - [08/Jan/2026:20:14:15 +0000] "GET /api/cats/breeds?t=1767903255142 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:14:15 [32minfo[39m: ::1 - - [08/Jan/2026:20:14:15 +0000] "GET /api/cats/breeds?t=1767903255136 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:14:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:14:16 +0000] "GET /api/images/imagesbybreedid?t=1767903255779&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:14:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:14:16 +0000] "GET /api/cats/breeds/abys?t=1767903255777 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:17:23 [32minfo[39m: ::1 - - [08/Jan/2026:20:17:23 +0000] "POST /api/login HTTP/1.1" 404 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:19:00 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 15:19:00 [32minfo[39m: 📁 Entorno: development
+2026-01-08 15:19:00 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 15:19:01 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 15:19:24 [32minfo[39m: ::1 - - [08/Jan/2026:20:19:24 +0000] "POST /api/login HTTP/1.1" 404 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:19:49 [31merror[39m: Error en login: undefined
+2026-01-08 15:19:49 [32minfo[39m: ::1 - - [08/Jan/2026:20:19:49 +0000] "POST /api/users/login HTTP/1.1" 400 376 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:22:31 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 15:22:31 [32minfo[39m: 📁 Entorno: development
+2026-01-08 15:22:31 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 15:22:32 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 15:22:32 [31merror[39m: Error en login: undefined
+2026-01-08 15:22:32 [32minfo[39m: ::1 - - [08/Jan/2026:20:22:32 +0000] "POST /api/users/login HTTP/1.1" 400 412 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:23:01 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 15:23:01 [32minfo[39m: 📁 Entorno: development
+2026-01-08 15:23:01 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 15:23:02 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 15:23:04 [31merror[39m: Error en login: undefined
+2026-01-08 15:23:04 [32minfo[39m: ::1 - - [08/Jan/2026:20:23:04 +0000] "POST /api/users/login HTTP/1.1" 400 412 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:23:46 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 15:23:46 [32minfo[39m: 📁 Entorno: development
+2026-01-08 15:23:46 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 15:23:47 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 15:24:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:24:03 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:26:29 [32minfo[39m: ::1 - - [08/Jan/2026:20:26:29 +0000] "GET /api/cats/breeds?t=1767903989069 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:26:29 [32minfo[39m: ::1 - - [08/Jan/2026:20:26:29 +0000] "GET /api/cats/breeds?t=1767903989064 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:26:30 [32minfo[39m: ::1 - - [08/Jan/2026:20:26:30 +0000] "GET /api/cats/breeds/abys?t=1767903989676 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:26:30 [32minfo[39m: ::1 - - [08/Jan/2026:20:26:30 +0000] "GET /api/images/imagesbybreedid?t=1767903989680&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:19 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:19 +0000] "GET /api/cats/breeds?t=1767904099615 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:20 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:20 +0000] "GET /api/cats/breeds?t=1767904099607 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:20 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:20 +0000] "GET /api/cats/breeds/abys?t=1767904100383 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:21 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:21 +0000] "GET /api/images/imagesbybreedid?t=1767904100386&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:26 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:26 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:26 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:26 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:28 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:28 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:28 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:28 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:29 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:29 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:29 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:29 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:30 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:30 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:30 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:30 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:30 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:30 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:30 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:30 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:31 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:31 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:31 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:31 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:31 [31merror[39m: Error en login: Credenciales inválidas
+2026-01-08 15:28:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:31 +0000] "POST /api/users/login HTTP/1.1" 401 396 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:39 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:39 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:40 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:40 +0000] "GET /api/cats/breeds?t=1767904119906 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:40 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:40 +0000] "GET /api/cats/breeds?t=1767904119908 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:40 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:40 +0000] "GET /api/cats/breeds/abys?t=1767904120240 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:28:40 [32minfo[39m: ::1 - - [08/Jan/2026:20:28:40 +0000] "GET /api/images/imagesbybreedid?t=1767904120243&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:11 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:11 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:11 +0000] "POST /api/users/register HTTP/1.1" 400 402 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:44 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:44 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:44 +0000] "POST /api/users/register HTTP/1.1" 400 406 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:45 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:45 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:45 +0000] "POST /api/users/register HTTP/1.1" 400 406 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:45 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:45 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:45 +0000] "POST /api/users/register HTTP/1.1" 400 406 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:45 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:45 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:45 +0000] "POST /api/users/register HTTP/1.1" 400 406 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:30:46 [31merror[39m: Error en register: undefined
+2026-01-08 15:30:46 [32minfo[39m: ::1 - - [08/Jan/2026:20:30:46 +0000] "POST /api/users/register HTTP/1.1" 400 406 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:31:16 [31merror[39m: Error en register: undefined
+2026-01-08 15:31:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:31:16 +0000] "POST /api/users/register HTTP/1.1" 400 402 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:17 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:17 +0000] "POST /api/users/register HTTP/1.1" 200 541 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:18 [31merror[39m: Error obteniendo razas: Request failed with status code 429
+2026-01-08 15:34:18 [31merror[39m: Error en getAllBreeds: Error al obtener las razas de gatos desde The Cat API
+2026-01-08 15:34:18 [31merror[39m: Error: Error al obtener las razas de gatos desde The Cat API
+    at CatService.getAllBreeds (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\services\CatService.ts:27:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at CatController.getAllBreeds (C:\Users\juan.acevedo\Finaktiva\Study\Back\backend-xper\src\controllers\CatController.ts:15:22)
+2026-01-08 15:34:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:18 +0000] "GET /api/cats/breeds?t=1767904457756 HTTP/1.1" 500 541 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:18 +0000] "GET /api/cats/breeds?t=1767904457747 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:18 +0000] "GET /api/cats/breeds/abys?t=1767904458415 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:18 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:18 +0000] "GET /api/images/imagesbybreedid?t=1767904458420&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:34:45 [32minfo[39m: ::1 - - [08/Jan/2026:20:34:45 +0000] "GET /api/cats/breeds?t=1767904485592 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:05 +0000] "GET /api/cats/breeds?t=1767904744927 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:05 +0000] "GET /api/cats/breeds?t=1767904744924 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:05 +0000] "GET /api/cats/breeds/abys?t=1767904745293 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:05 +0000] "GET /api/images/imagesbybreedid?t=1767904745295&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:25 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:25 +0000] "GET /api/cats/breeds?t=1767904764457 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:25 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:25 +0000] "GET /api/cats/breeds?t=1767904764468 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:25 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:25 +0000] "GET /api/images/imagesbybreedid?t=1767904765052&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:25 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:25 +0000] "GET /api/cats/breeds/abys?t=1767904765048 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:31 +0000] "GET /api/cats/breeds?t=1767904770851 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:31 +0000] "GET /api/cats/breeds?t=1767904770854 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:31 +0000] "GET /api/cats/breeds/abys?t=1767904771138 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:39:31 [32minfo[39m: ::1 - - [08/Jan/2026:20:39:31 +0000] "GET /api/images/imagesbybreedid?t=1767904771139&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:05 +0000] "GET /api/cats/breeds?t=1767904805139 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:05 +0000] "GET /api/cats/breeds?t=1767904805149 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:05 +0000] "GET /api/images/imagesbybreedid?t=1767904805583&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:05 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:05 +0000] "GET /api/cats/breeds/abys?t=1767904805580 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:26 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:26 +0000] "GET /api/cats/breeds?t=1767904825647 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:26 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:26 +0000] "GET /api/cats/breeds?t=1767904825654 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:27 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:27 +0000] "GET /api/cats/breeds/abys?t=1767904826693 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:27 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:27 +0000] "GET /api/images/imagesbybreedid?t=1767904826698&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:54 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:54 +0000] "GET /api/cats/breeds?t=1767904854169 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:54 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:54 +0000] "GET /api/cats/breeds?t=1767904854162 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:54 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:54 +0000] "GET /api/cats/breeds/abys?t=1767904854552 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:40:54 [32minfo[39m: ::1 - - [08/Jan/2026:20:40:54 +0000] "GET /api/images/imagesbybreedid?t=1767904854555&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:41:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:41:03 +0000] "GET /api/cats/breeds?t=1767904863117 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:41:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:41:03 +0000] "GET /api/cats/breeds?t=1767904863125 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:41:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:41:03 +0000] "GET /api/images/imagesbybreedid?t=1767904863465&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:41:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:41:03 +0000] "GET /api/cats/breeds/abys?t=1767904863462 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:42:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:42:16 +0000] "GET /api/cats/breeds?t=1767904935645 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:42:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:42:16 +0000] "GET /api/cats/breeds?t=1767904935639 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:42:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:42:16 +0000] "GET /api/cats/breeds/abys?t=1767904936035 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:42:16 [32minfo[39m: ::1 - - [08/Jan/2026:20:42:16 +0000] "GET /api/images/imagesbybreedid?t=1767904936038&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:43:58 [32minfo[39m: ::1 - - [08/Jan/2026:20:43:58 +0000] "GET /api/cats/breeds?t=1767905037785 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:43:58 [32minfo[39m: ::1 - - [08/Jan/2026:20:43:58 +0000] "GET /api/cats/breeds?t=1767905037778 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:43:58 [32minfo[39m: ::1 - - [08/Jan/2026:20:43:58 +0000] "GET /api/cats/breeds/abys?t=1767905038185 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:43:58 [32minfo[39m: ::1 - - [08/Jan/2026:20:43:58 +0000] "GET /api/images/imagesbybreedid?t=1767905038189&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:22 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:22 +0000] "GET /api/cats/breeds?t=1767905061777 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:22 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:22 +0000] "GET /api/cats/breeds?t=1767905061784 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:22 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:22 +0000] "GET /api/images/imagesbybreedid?t=1767905062099&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:22 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:22 +0000] "GET /api/cats/breeds/abys?t=1767905062096 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:36 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:36 +0000] "GET /api/cats/breeds?t=1767905075960 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:36 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:36 +0000] "GET /api/cats/breeds?t=1767905075972 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:36 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:36 +0000] "GET /api/images/imagesbybreedid?t=1767905076448&breed_id=abys&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:36 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:36 +0000] "GET /api/cats/breeds/abys?t=1767905076445 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:49 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:49 +0000] "GET /api/cats/breeds/aege?t=1767905088917 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:44:49 [32minfo[39m: ::1 - - [08/Jan/2026:20:44:49 +0000] "GET /api/images/imagesbybreedid?t=1767905088920&breed_id=aege&limit=5 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:50:03 [32minfo[39m: ::1 - - [08/Jan/2026:20:50:03 +0000] "GET /api/cats/breeds?t=1767905403352 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:50:04 [32minfo[39m: ::1 - - [08/Jan/2026:20:50:04 +0000] "GET /api/cats/breeds?t=1767905403359 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:51:33 [32minfo[39m: ::1 - - [08/Jan/2026:20:51:33 +0000] "GET /api/cats/breeds?t=1767905493394 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 15:51:33 [32minfo[39m: ::1 - - [08/Jan/2026:20:51:33 +0000] "GET /api/cats/breeds?t=1767905493386 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:13:47 [32minfo[39m: ::1 - - [08/Jan/2026:21:13:47 +0000] "POST /api/users/login HTTP/1.1" 200 506 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:24:27 [32minfo[39m: ::1 - - [08/Jan/2026:21:24:27 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:24:38 [32minfo[39m: ::1 - - [08/Jan/2026:21:24:38 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:28:33 [32minfo[39m: ::1 - - [08/Jan/2026:21:28:33 +0000] "POST /api/users/login HTTP/1.1" 200 506 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:28:59 [32minfo[39m: ::1 - - [08/Jan/2026:21:28:59 +0000] "POST /api/users/login HTTP/1.1" 200 506 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:29:09 [32minfo[39m: ::1 - - [08/Jan/2026:21:29:09 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:30:52 [32minfo[39m: ::1 - - [08/Jan/2026:21:30:52 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 16:35:45 [32minfo[39m: 🚀 Servidor ejecutándose en puerto 3001
+2026-01-08 16:35:45 [32minfo[39m: 📁 Entorno: development
+2026-01-08 16:35:45 [32minfo[39m: 🔗 MongoDB: Conectado
+2026-01-08 16:35:46 [32minfo[39m: MongoDB conectado exitosamente
+2026-01-08 16:44:27 [32minfo[39m: ::1 - - [08/Jan/2026:21:44:27 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 17:20:04 [32minfo[39m: ::1 - - [08/Jan/2026:22:20:04 +0000] "POST /api/users/login HTTP/1.1" 200 513 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2026-01-08 17:34:22 [32minfo[39m: ::1 - - [08/Jan/2026:22:34:22 +0000] "GET /api/cats/breeds?t=1767911661715 HTTP/1.1" 200 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
