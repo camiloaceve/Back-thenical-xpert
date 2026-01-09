@@ -1,4 +1,4 @@
-import jwt from 'jsonwebtoken';
+import * as jwt from 'jsonwebtoken';
 import { User, IUser } from '../entities/User';
 import { IAuthService } from '../interfaces/ICatService.interface';
 import { UserResponseDto } from '../dtos/User.dto';
@@ -34,7 +34,7 @@ export class AuthService implements IAuthService {
       const token = jwt.sign(
         { userId: user._id, email: user.email },
         environment.jwtSecret,
-        { expiresIn: environment.jwtExpiresIn }
+        { expiresIn: environment.jwtExpiresIn } as jwt.SignOptions
       );
 
       // Retornar respuesta
@@ -92,7 +92,7 @@ export class AuthService implements IAuthService {
       const token = jwt.sign(
         { userId: user._id, email: user.email },
         environment.jwtSecret,
-        { expiresIn: environment.jwtExpiresIn }
+        { expiresIn: environment.jwtExpiresIn } as jwt.SignOptions
       );
 
       // Retornar respuesta
