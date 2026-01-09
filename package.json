@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "build": "tsc",
     "start": "node dist/app.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only src/app.ts",
-    "build": "tsc",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "lint": "eslint src/**/*.ts",

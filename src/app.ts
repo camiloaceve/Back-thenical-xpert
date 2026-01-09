@@ -98,10 +98,16 @@ class App {
   }
 
   public listen(): void {
-    this.app.listen(environment.port, () => {
-      logger.info(`🚀 Servidor ejecutándose en puerto ${environment.port}`);
-      logger.info(`📁 Entorno: ${environment.nodeEnv}`);
-      logger.info(`🔗 MongoDB: ${environment.mongodbUri ? 'Conectado' : 'No configurado'}`);
+    // this.app.listen(environment.port, () => {
+    //   logger.info(`🚀 Servidor ejecutándose en puerto ${environment.port}`);
+    //   logger.info(`📁 Entorno: ${environment.nodeEnv}`);
+    //   logger.info(`🔗 MongoDB: ${environment.mongodbUri ? 'Conectado' : 'No configurado'}`);
+    // });
+
+    const PORT = process.env.PORT || environment.port || 3000;
+
+    this.app.listen(PORT, () => {
+      logger.info(`🚀 Servidor ejecutándose en puerto ${PORT}`);
     });
   }
 }
