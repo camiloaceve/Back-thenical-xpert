@@ -34,7 +34,18 @@ class App {
     // Seguridad
     this.app.use(helmet());
     this.app.use(cors({
-      origin: '*',
+      origin: (origin, callback) => {
+        // permitir requests sin origin (Postman, curl, server-to-server)
+        if (!origin) return callback(null, true);
+
+        const allowedOrigins = environment.corsOrigins;
+
+        if (allowedOrigins.includes(origin)) {
+          return callback(null, true);
+        }
+
+        return callback(new Error('Not allowed by CORS'));
+      },
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       allowedHeaders: [
@@ -43,13 +54,12 @@ class App {
         'X-Requested-With',
         'Accept',
         'Origin',
-        'Access-Control-Request-Method',
-        'Access-Control-Request-Headers',
         'Cache-Control',
         'Pragma',
         'Expires'
       ],
     }));
+
 
     // Logging
     this.app.use(morgan('combined', { stream }));
