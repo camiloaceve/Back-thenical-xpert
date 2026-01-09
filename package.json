@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node -r tsconfig-paths/register dist/app.js",
+    "start": "node dist/app.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only src/app.ts",
     "build": "tsc",
     "test": "jest --coverage",
