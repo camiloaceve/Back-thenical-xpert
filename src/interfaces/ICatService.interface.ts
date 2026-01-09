@@ -1,5 +1,5 @@
-import { UserResponseDto } from '@dtos/User.dto';
 import { CatBreedDto, CatImageDto, BreedSearchQueryDto } from '../dtos/CatBreed.dto';
+import { UserResponseDto } from '../dtos/User.dto';
 
 export interface ICatService {
   getAllBreeds(): Promise<CatBreedDto[]>;
